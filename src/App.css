@@ -1,0 +1,11 @@
+*{
+    font-family: sans-serif;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./assets/images/body_bg.png");
+    
+}

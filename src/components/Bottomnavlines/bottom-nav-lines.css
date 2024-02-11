@@ -1,0 +1,49 @@
+:root{
+    --red:#E3350D;
+    --orange:#EE6B2F;
+    --yellow:#E6BC2F;
+    --green:#4DAD5B;
+    --aqua:#30A7D7;
+    --blue:#1B53BA;
+    --gray:#919191;
+    --textColor:#343434;
+}
+.line-container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.border-line{
+    width: 124px;
+    height: 6px;
+    overflow: visible;
+    border-radius: 10%;
+}
+.grey-line{
+    background-color: var(--gray);
+    
+}
+.red-line{
+    background-color: var(--red);
+    
+}
+.orange-line{
+    background-color: var(--orange);
+    
+}
+.yellow-line{
+    background-color: var(--yellow);
+    
+}
+.green-line{
+    background-color: var(--green);
+    
+}
+.aqua-line{
+    background-color: var(--aqua);
+    
+}
+.blue-line{
+    background-color: var(--blue);
+    
+}

@@ -1,0 +1,67 @@
+:root{
+    --red:#E3350D;
+    --orange:#EE6B2F;
+    --yellow:#E6BC2F;
+    --green:#4DAD5B;
+    --aqua:#30A7D7;
+    --blue:#1B53BA;
+    --gray:#919191;
+    --textColor:#343434;
+}
+*{
+    color: var(--textColor);
+}
+
+
+.botnavdiv{
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    padding-top: 2px;
+}
+.nav-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    width: 124px;
+    
+}
+.grey-container{
+    background-color: var(--gray);
+    transition: 0.4s;
+    color: white;
+}
+.red-container:hover{
+    background-color: var(--red);
+    transition: 0.4s;
+    color: white;
+}
+.orange-container:hover{
+    background-color: var(--orange);
+    transition: 0.4s;
+    color: white;
+}
+.yellow-container:hover{
+    background-color: var(--yellow);
+    transition: 0.4s;
+    color: white;
+}
+.green-container:hover{
+    background-color: var(--green);
+    transition: 0.4s;
+    color: white;
+}
+.aqua-container:hover{
+    background-color: var(--aqua);
+    transition: 0.4s;
+    color: white;
+}
+.blue-container:hover{
+    background-color: var(--blue);
+    transition: 0.4s;
+    color: white;
+}
+
+

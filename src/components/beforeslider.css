@@ -1,0 +1,107 @@
+:root{
+    --firstColor: #313131;
+    --paraColor: #CCCCCC;
+}
+
+.before-slider{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+    background-color: white;
+}
+.big-card{
+    background-color: var(--firstColor);
+    border-radius: 2%;
+}
+.big-text1{
+    background-color: var(--firstColor);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 875px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+}
+.big-text1 h3,p,i{
+    background-color: var(--firstColor);
+}
+.big-text1 h3{
+    font-weight: lighter;
+    color: white;  
+}
+.big-text1 i{
+    color: inherit;
+}
+
+.big-text1 p{
+    color: var(--paraColor);
+}
+
+.before-slider img{
+    border-radius: 1%;
+}
+.small-cards{
+    width: 875px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.small-cards img{
+    width: 280px;
+    border-radius: 3%;
+}
+.card1{
+    background-color: #C7AA79;
+    border-radius: 5%;
+}
+
+.card1 h3{
+    background-color: #C7AA79;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 30px 25px 30px;
+    border-radius: 10%;
+}
+.card1 h3{
+    font-weight: lighter;
+    color: white;  
+}
+.card2{
+    background-color:#855AC9;
+    border-radius: 5%;
+}
+
+.card2 h3{
+    background-color:#855AC9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 30px 25px 30px;
+    border-radius: 10%;
+}
+.card2 h3{
+    font-weight: lighter;
+    color: white;  
+}
+.card3{
+    background-color:#369143;
+    border-radius: 5%;
+}
+
+.card3 h3{
+    background-color: #369143;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 30px 25px 30px;
+    border-radius: 10%;
+}
+.card3 h3{
+    font-weight: lighter;
+    color: white;  
+}
